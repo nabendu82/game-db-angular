@@ -1,0 +1,7 @@
+<div class="container">
+    <form class="form" #form="ngForm" (ngSubmit)="onSubmit(form)">
+        <span class="logo" routerLink="/">Game Database</span>
+        <input class="input" name="search" ngModel placeholder="Search 500,000+ games" />
+        <button class="button">Search</button>
+    </form>
+</div>
